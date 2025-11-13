@@ -1,0 +1,14 @@
+include ./meta/head
+
+body.page
+    include ./header
+
+    ._body
+        include ./sidebar
+
+        main._content
+            block content
+
+    include ./footer
+
+include ./meta/scripts
