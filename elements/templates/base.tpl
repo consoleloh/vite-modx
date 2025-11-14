@@ -2,7 +2,6 @@
 
 {block 'content'}
     <main class="page__content">
-        {$_modx->config.site_name}
+        {include 'file:chunks/card.tpl'}
     </main>
-    {include 'file:chunks/card.tpl'}
 {/block}

@@ -17,10 +17,11 @@ aside.sidebar.page__sidebar
                     | Link 3
 
     form.form._form(method="post")
-        label._label(for="#search")
-            | Search
-        
-        input.label.-search._input#search(type="search" placeholder="?")
+        ._group
+            label._label(for="#search")
+                | Search
+            
+            input.input.-search._input#search(type="search" placeholder="?" required)
 
-        button.button.-secondary._button(type="submit")
+        button.button.-primary._button(type="submit")
             | Go!

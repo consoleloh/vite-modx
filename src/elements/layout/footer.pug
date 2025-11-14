@@ -1,42 +1,37 @@
 
-footer.footer._footer 
+footer.footer.page__footer 
     ._inner
-        ._top
-            a.logo._logo(href="#")
-                | logo 
+        a.logo._logo(href="#")
+            | logo 
 
-            nav.nav._nav 
-                ul._list 
-                    li._item 
-                        a._link(href="#")
-                            | link
+        nav.nav._nav 
+            ul._list.-horizontal
+                li._item 
+                    a._link(href="#")
+                        | link
 
-                    li._item 
-                        a._link(href="#")
-                            | link
+                li._item 
+                    a._link(href="#")
+                        | link
 
-                    li._item 
-                        a._link(href="#")
-                            | link
+                li._item 
+                    a._link(href="#")
+                        | link
 
-            address.contacs._contacts
-                p.contact.-phone._item 
-                    strong
-                        | Phone: 
+        address.contacs._contacts
+            p.contact.-phone._item 
+                strong
+                    | Phone: 
 
-                    a(href="tel:5555555")
-                        | 555-55-55
+                a._link(href="tel:5555555")
+                    | 555-55-55
 
-                p.contact.-email._item 
-                    strong
-                        | E-Mail: 
+            p.contact.-email._item 
+                strong
+                    | E-Mail: 
 
-                    a(href="mailto:a@b.c")
-                        | a@b.c
-
-        ._copyright 
-            | copyright
+                a._link(href="mailto:a@b.c")
+                    | a@b.c
         
-        ._bottom 
-            a._privacy(href="#")
-                | privacy
+.copyright 
+    | &copy;copyright
